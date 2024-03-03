@@ -632,6 +632,10 @@ a {
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 
 }
+.investment-left{
+  display: flex;
+  flex-direction: column;
+}
 .investment-left-pic{
   display: flex;
   height: 100%;
@@ -908,6 +912,9 @@ a {
   .buttons {
     width: 80px;
   }
+  .heading{
+    margin: 40px 0px;
+  }
 
   .slide img {
     height: 310px;
@@ -1039,10 +1046,17 @@ a {
   font-size: 6px;
   height: 60px;
 }
+.about-banner-pera p{
+  font-size: 6px;
+}
 .start-trading-card{
   width: 140px;
   padding: 5px;
   margin: 10px 0px;
+}
+.start-trading-cards{
+  justify-content: space-evenly;
+
 }
 .start-trading-card-img img {
   width: 46px;
@@ -1075,6 +1089,7 @@ a {
   display: flex;
   flex-direction: column;
   width: 290px;
+  padding: 10px 0px;
 }
 .cabana-partnership{
   display: flex;
@@ -1085,8 +1100,12 @@ a {
   height: 170px;
   width: 280px;
 }
+.cabana-partnership-head {
+  margin: 0px 0px;
+}
 .cabana-partnership-head .heading{
   font-size: 16px;
+  margin: 20px 0px;
 }
 .cabana-partnership-pera p{
   font-size: 12px;
@@ -1094,6 +1113,12 @@ a {
 .cabana-partnership-btn .buttons {
   width: 85px;
   font-size: 6px;
+}
+.investment-left{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
 .investment-left-1st-card {
   width: 320px;

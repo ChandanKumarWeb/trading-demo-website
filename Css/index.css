@@ -619,6 +619,11 @@ a {
   width: 185px;
   font-size: 15px;
 }
+.cabana-partnership img{
+  width: 400px;
+  height: 350px;
+  padding: 20px 20px 10px 20px;
+}
 /* ***********************************************************INVESTMENT************************************* */
 /* ***********************************************************INVESTMENT************************************* */
 .investment-left-1st-card{
@@ -661,7 +666,8 @@ a {
   display: flex;
   width: 100%;
   justify-content: center;
-  align-items: center;
+  align-items: center; 
+  margin: 15px 0px 10px;
 }
 .investment-left-side-btn .buttons{
   width: 290px;
@@ -730,10 +736,11 @@ a {
   margin-top: 30px;
 }
 .social-media-icon{
-  width: 80%;
+  width: 50%;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  padding: 20px 50px;
 }
 .social-icon {
   width: 40px; 

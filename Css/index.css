@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* **********************GLOBAL************************ */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
@@ -1155,4 +1156,1131 @@ a {
 .about-pera-2{
   font-size: 1px;
 }
+=======
+/* **********************GLOBAL************************ */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+  --main-color: #EE4298;
+  --white-color: #fff;
+  --black-color: #0D0D0D;
+  --green-color: #83E245;
+}
+.section-margin{
+  margin: 20px 0px;
+}
+a {
+  text-decoration: none;
+}
+
+.heading {
+  text-align: center;
+  color: var(--black-color);
+  font-weight: 500;
+  margin: 50px 0px;
+}
+
+.btn-close {
+  filter: grayscale(50%);
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  background-color: var(--main-color);
+  text-decoration: none;
+  border-radius: 25px;
+  padding: 10px;
+  color: #fff;
+  width: 195px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.buttons:hover {
+  background-color: var(--white-color);
+  color: var(--main-color);
+  transition: 1s;
+}
+
+/* .container{ 
+    background-color: aqua;
+    width: 1360px;
+} */
+/* **************************************************************Upper NAV**************************************** */
+#first-navbar {
+  background-color: var(--black-color);
+}
+
+.upper-nav {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  padding: 8px;
+}
+
+.upper-nav-list {
+  list-style: none;
+  padding-right: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.list-link {
+  color: var(--white-color);
+}
+
+/* ****************************Upper NAV button**************************** */
+
+.fa-regular {
+  padding-right: 10px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  padding: 12px 16px;
+  display: block;
+  text-decoration: none;
+  background-color: #000;
+  color: #fff;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* ****************************SECOND NAV button**************************** */
+.navbar-toggler-icon {
+  background-color: var(--black-color);
+  color: var(--black-color);
+}
+
+.nav-link {
+  color: var(--main-color);
+  font-weight: bold;
+  font-size: 16px;
+  padding: 0%;
+  margin: 0%;
+}
+
+.nav-link:hover {
+  color: var(--black-color);
+  transition: 1s;
+}
+
+.navbar-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* **********************************slider image****************************** */
+.slider {
+  width: 100%;
+  height: 620px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.slides {
+  width: 500%;
+  height: 650px;
+  display: flex;
+}
+
+.slides input {
+  display: none;
+}
+
+.slide {
+  width: 20%;
+  transition: 2s;
+}
+
+.slide img {
+  width: 100%;
+  height: 680px;
+}
+
+.slide {
+  position: relative;
+}
+
+/* texts on a banner */
+.banner-text {
+  position: absolute;
+  width: 460px;
+  top: 100px;
+  left: 150px;
+  color: var(--white-color);
+}
+
+.banner-text div {
+  padding-top: 10px;
+}
+
+.banner-heading h1 {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 53px;
+  font-weight: 500;
+}
+
+/*css for manual slide navigation*/
+
+.navigation-manual {
+  position: absolute;
+  width: 100%;
+  margin-top: -80px;
+  display: flex;
+  justify-content: center;
+}
+
+.manual-btn {
+  border: 2px solid #40D3DC;
+  padding: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 1s;
+
+}
+
+.manual-btn:not(:last-child) {
+  margin-right: 10px;
+}
+
+.manual-btn:hover {
+  background: #40D3DC;
+}
+
+#radio1:checked~.first {
+  margin-left: 0;
+}
+
+#radio2:checked~.first {
+  margin-left: -20%;
+}
+
+#radio3:checked~.first {
+  margin-left: -40%;
+}
+
+#radio4:checked~.first {
+  margin-left: -60%;
+}
+
+#radio5:checked~.first {
+  margin-left: -80%;
+}
+
+/*css for automatic navigation*/
+
+.navigation-auto {
+  position: absolute;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-top: 570px;
+}
+
+.navigation-auto div {
+  border: 2px solid #40D3DC;
+  padding: 5px;
+  border-radius: 10px;
+  transition: 2s;
+}
+
+.navigation-auto div:not(:last-child) {
+  margin-right: 10px;
+}
+
+#radio1:checked~.navigation-auto .auto-btn1 {
+  background: #40D3DC;
+}
+
+#radio2:checked~.navigation-auto .auto-btn2 {
+  background: #40D3DC;
+}
+
+#radio3:checked~.navigation-auto .auto-btn3 {
+  background: #40D3DC;
+}
+
+#radio4:checked~.navigation-auto .auto-btn4 {
+  background: #40D3DC;
+}
+
+#radio5:checked~.navigation-auto .auto-btn5 {
+  background: #40D3DC;
+}
+
+/* ***********************BANNER FOOTER********************* */
+/**********************************************************  */
+.banner-foot {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 20px 0px;
+}
+
+.banner-foot-img {
+  display: flex;
+  justify-content: center;
+}
+
+.banner-foot-img img {
+  height: 70px;
+  width: 85px;
+}
+
+.banner-foot-text {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+/* ********************************************LATEST-NEWS****************************************** */
+/********************************************************** ****************************************** */
+.news-box {
+  padding-bottom: 5px;
+  width: 1140px;
+  height: fit-content;
+  border-radius: 30px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  margin-top: 50px;
+}
+.news-box:hover , .news-box:focus, .news-box:active{
+  cursor: pointer;
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  transition: 1s;
+}
+.news-box-head{
+  display: flex;
+}
+.head-selected{
+  height: 80px;
+  width: 345px;
+  background-color: var(--main-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top-left-radius:30px ;
+}
+.head-selected a{
+  color: var(--white-color);
+  font-size: 20px;
+}
+.news-head{
+  height: 80px;
+  width: 345px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.news-head a{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-weight: 500;
+  font-size: 20px;
+  color: var(--black-color);
+}
+.news-subhead{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 74px;
+  margin: 10px 0px;
+}
+.news-subhead p{
+  font-size: 16px;
+  font-weight: 500;
+}
+.col-sm{
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 18px;
+}
+.blue{
+  color: var(--main-color) !important; 
+  font-size: 20px;
+}
+.table-borderless td{
+  font-size: 18px;
+}
+.green{
+  color: var(--green-color)!important;
+  font-size: 20px;
+}
+.news-current-prices span{
+  font-weight: bold;
+}
+/* ***********************SELL BUY BUTTONS********************* */
+.news-buttons{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0%;
+}
+.sell-btn{
+  width: 65px;
+  height: 30px;
+  background-color: var(--main-color);
+  color: var(--white-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+  font-size: 15px;
+}
+.sell-btn:hover{
+  color: var(--main-color);
+  background-color: var(--white-color);
+  transition: 1s;
+}
+.buy-btn{
+  width: 65px;
+  height: 30px;
+  background: linear-gradient(90deg, #2EE383 0%, #83E245 59.9%);
+  color: var(--white-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;  border-radius: 15px;
+  font-size: 15px;
+}
+.buy-btn:hover{
+  background-color: var(--white-color);
+  border: 2px solid var(--main-color);
+  color: gray;
+  background: none;
+  transition: 1s;
+}
+/* ******************************************LATEST NEWS CARDS**************************************** */
+.cards{
+  display: flex;
+  justify-content: space-between;
+}
+.card{
+  width: 535px;
+  height: fit-content;
+  padding-bottom: 10px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.card:hover , .card:focus, .card:active{
+  cursor: pointer;
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  transition: 1s;
+}
+.card img{
+  width: 535px;
+  height: 300px;
+  border-radius: 10px;
+  position: relative;
+}
+.card-head{
+  width: 507px;
+  padding: 0%;
+  border-radius: 29px;
+}
+.card-head p{
+  background-color: var(--white-color);
+  padding: 0px 10px 0px 10px;  
+  left: 50%;
+  position: absolute;
+  top: auto;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 430px;
+  height: fit-content;
+  border-radius: 30px;
+  font-size: 30px;
+  font-weight: 500;
+  box-shadow: 0px 0px 6px 1px #CBCBCB;
+}
+.card-pera p{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 25px;
+  height: 180px;
+  text-align: center;
+  font-size: 19px;
+  color: var(--black-color);
+}
+.card-btn{
+  display: flex;
+  justify-content: space-evenly;
+}
+.card-btn .btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 240px;
+  height: 54px;
+  color: var(--main-color);
+  border-radius: 27px;
+  border: 2px solid var(--main-color);
+}
+.btn:hover{
+  color: var(--white-color);
+  background-color: var(--main-color);
+  transition: 1s;
+}
+/* ***********************************************ABOUT BANNER*************************** */
+.about-banner-space{
+  display: flex;
+  justify-content: center;
+}
+.about-banner{
+  margin: 50px 0px;
+  padding: 0px 0px 20px 0px;
+  border-radius: 15px;
+  height: fit-content;
+  width: fit-content;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.about-banner:hover , .about-banner:focus, .about-banner:active{
+  cursor: pointer;
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  transition: 1s;
+}
+.about-banner img{
+  width: 1140px;
+  height: 300px;
+  border-radius: 15px;
+  position: relative;
+}
+.about-banner-head p{
+  background-color: var(--white-color);
+  padding: 0px 10px 0px 10px;  
+  left: 50%;
+  position: absolute;
+  top: auto;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 665px;
+  height: fit-content;
+  border-radius: 30px;
+  font-size: 30px;
+  font-weight: 500;
+  box-shadow: 0px 0px 6px 1px #CBCBCB;
+}
+.about-banner-pera{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 25px;
+  height: 180px;
+  text-align: center;
+  font-size: 20px;
+  color: var(--black-color);
+}
+/* ****************************************************START TRADING SECTION*************************************** */
+.start-trading-cards{
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 0px;
+}
+.start-trading-card{
+  width: 260px;
+  height: fit-content;
+  padding-bottom: 10px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.start-trading-card:hover , .start-trading-card:focus, .start-trading-card:active{
+  cursor: pointer;
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  transition: 1s;
+}
+.start-trading-card-img{
+  display: flex;
+  justify-content: center;
+}
+.start-trading-card-img img{
+  width: 60px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+}
+.start-trading-card-head{
+  width: 185px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.start-trading-card-head i{
+  color: var(--main-color);
+  padding-bottom: 12px;
+}
+.start-trading-card-head p{
+  font-size: 25px;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.start-trading-card-pera{
+  display: flex;
+  justify-content: center;
+  padding: 20px 0px;
+}
+.start-trading-card-pera i{
+  color: #2EE383;
+  padding: 5px 15px 0px 0px;
+
+}
+.start-trading-card-pera p{
+  padding-right: 15px;
+  height: 50px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cabana-partnership-section{
+  display: flex;
+  justify-content: center;
+}
+.cabana-partnership-align{
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  padding-bottom: 10px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.cabana-partnership-head{
+  margin: 30px 0px;
+}
+.cabana-partnership-btn{
+  display: flex;
+  justify-content: space-evenly;
+}
+.cabana-partnership-pera p{
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+}
+.cabana-partnership-btn .buttons{
+  width: 185px;
+  font-size: 15px;
+}
+/* ***********************************************************INVESTMENT************************************* */
+/* ***********************************************************INVESTMENT************************************* */
+.investment-left-1st-card{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 708px;
+  height: 122px;
+  border-radius: 14px ;
+  margin: 10px 0px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+.investment-left-pic{
+  display: flex;
+  height: 100%;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+}
+.investment-left-pic img{
+  width: 80px;
+  border-radius: 50%;
+  
+}
+.investment-account{
+  padding-left: 10px;
+}
+.investment-account h4{
+  margin: 0%;
+}
+.investment-account p{
+  margin: 0%;
+}
+.investment-left-side-btn{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.investment-left-side-btn .buttons{
+  width: 290px;
+}
+.investment-right{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.investment-right-heading{
+  margin: 10px 0px;
+  text-align: center;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.investment-right-heading p{
+  padding-top: 10px;
+  font-size: 18px;
+}
+/* ************************************we accept************************* */
+.we-accept-banners{
+ background: var(--black-color);
+}
+.logos{
+  display: flex;
+  justify-content: center;
+}
+.logos img{
+  width: 12%;
+  aspect-ratio: 3/2;
+  object-fit: contain;
+}
+.we-accept-banner {
+  position: relative;
+}
+
+.we-accept-banner img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.we-accept-banner-1 {
+  opacity: 0.9;
+  height: 300px !important;
+}
+
+.we-accept-banner-2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50%;
+  max-width: 60%; /* Adjust as needed */
+  background: var(--black-color);
+}
+/* **************************************Social media icon************************** */
+.social-media{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+.social-media-icon{
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.social-icon {
+  width: 40px; 
+  height: 40px;
+  line-height: 40px; 
+  text-align: center;
+  border-radius: 50%;
+  font-size: 35px;
+}
+
+/* Customize individual social media icons */
+.facebook-icon {
+  color: #1877F2; /* Facebook blue */
+}
+
+.twitter-icon {
+  color: #1DA1F2; /* Twitter blue */
+}
+
+.instagram-icon {
+  color: #E4405F; /* Instagram pink */
+}
+
+.linkedin-icon {
+  color: #0077B5; /* LinkedIn blue */
+}
+
+.youtube-icon {
+  color: #FF0000; /* YouTube red */
+}
+.whatsapp-icon {
+  color: #25D366; /* WhatsApp green */
+}
+
+.telegram-icon {
+  color: #0088cc; /* Telegram blue */
+}
+
+.discord-icon {
+  color: #5865F2; /* Discord blue */
+}
+
+.about-head{
+  font-size: 15px;
+  font-weight: bold;
+  color: var(--white-color);
+  margin-top: 20px;
+  /* display: flex;
+  justify-content: space-around; */
+}
+.about-pera{
+  /* padding: 18px; */
+  justify-content: space-around;
+  color: var(--white-color);
+}
+.about-pera p{
+  font-size: 13px;
+  margin: 0%;
+}
+.about-pera-2 p{
+  font-size: 13px;
+  color: var(--white-color);
+}
+
+
+
+
+
+
+
+
+/* ******************************************MEDIA QUERY FOR 760PX**************************************** */
+@media(max-width: 770px) {
+  .upper-nav-list a {
+    display: flex;
+    font-size: 10px;
+    justify-content: center;
+  }
+
+  .buttons {
+    width: 215px;
+  }
+/* ***********MEDIA QUERY FOR LATEST NEWS SECTION************ */
+  .news-box{
+    width: 540px;
+  }
+  .head-selected,.news-head{
+    width: 150px;
+  }
+  .head-selected a, .news-head a{
+    font-size: 12px;
+  }
+  th{
+    font-size: 10px;
+  }
+  .table-borderless td{
+    font-size: 10px;
+  }
+  .sell-btn{
+    width: 48px;
+    height: 18px;
+  }
+  .buy-btn{
+    width: 48px;
+    height: 18px;
+  }
+  .card{
+    width: 250px;
+  }
+  .card img{
+    width: 250px;
+    height: 150px;
+  }
+  .card-head p{
+    width: 210px;
+    font-size: 20px;
+  }
+  .card-pera p{
+    font-size: 12px;
+    height: 124px;
+  }
+  .card-btn .btn{
+    width: 105px;
+    height: 30px;
+    font-size: 8px;
+  }
+  .about-banner{
+    width: 400px;
+  }
+  .about-banner img{
+    width: 400px;
+    height: 250px;
+  }
+  .about-banner-head p{
+    width: 300px;
+    font-size: 18px;
+  }
+  .about-banner-pera p{
+    margin-top: 30px;
+    font-size: 12px;
+  }
+  .start-trading-card{
+    width: 220px;
+    margin: 15px 0px;
+  }
+  .cabana-partnership-align {
+    width: 625px;
+  }
+  .cabana-partnership img{
+    width: 440px;
+    height: 250px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ******************************************MEDIA QUERY FOR 420 PX**************************************** */
+@media(max-width: 420px) {
+  .upper-nav-list a {
+    font-size: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .buttons {
+    width: 80px;
+  }
+
+  .slide img {
+    height: 310px;
+    margin: 0%;
+    padding: 0%;
+  }
+
+  .slides {
+    height: 240px;
+  }
+
+  .slider {
+    height: 320px;
+  }
+
+  .navigation-manual {
+    width: 100%;
+    margin-top: 52px;
+  }
+
+  .navigation-auto {
+    margin-top: 292px;
+    width: 100%;
+  }
+
+  .banner-text {
+    width: 60%;
+    top: 66px;
+    left: 21px;
+    height: 100px;
+  }
+
+  .banner-heading h1 {
+    font-size: 20px;
+    font-weight: 500;
+  }
+
+  .banner-subheading h4 {
+    font-size: 10px;
+  }
+
+  .banner-btn .buttons {
+    width: 130px;
+    font-size: 10px;
+  }
+
+  .banner-pera1,
+  .banner-pera2 {
+    font-size: 8px;
+  }
+
+  .banner-text div {
+    padding-top: 5px;
+  }
+  /* **********************latest news table************** */
+  .news-box{
+    width: 285px;
+  }
+  .head-selected,.news-head{
+    width: 80px;
+    height: 50px;
+  }
+  .head-selected a, .news-head a{
+    font-size: 6px;
+  }
+  th{
+    font-size: 6px;
+  }
+  .table-borderless td{
+    font-size: 5px;
+  }
+  .news-buttons{
+    justify-content: space-between;
+  }
+  .sell-btn{
+    width: 18px;
+    height: 8px;
+    font-size: 6px;
+  }
+  .buy-btn{
+    width: 18px;
+    height: 8px;
+    font-size: 6px;
+  }
+.cards{
+  justify-content: space-evenly;
+}
+  .card{
+    width: 135px;
+  }
+  .card img{
+    width: 135px;
+    height: 100px;
+  }
+  .card-head p{
+    width: 100px;
+    font-size: 8px;
+  }
+  .card-pera{
+    height: 100px;
+  }
+  .card-pera p{
+    font-size: 6px;
+    height: 50px;
+    margin: 12px 2px;
+  }
+  .card-btn .btn {
+    width: 62px;
+    height: 22px;
+    font-size: 4px;
+  }
+.card-pera {
+  height: 70px;
+  margin-top: 5px;
+  }
+  /* **************************************************************about banner image************************************************************ */
+.about-banner{
+  width: 283px;
+}
+.about-banner img{
+  width: 283px;
+  height: 165px;
+}
+.about-banner-head p{
+  font-size: 8px;
+  width: 190px;
+}
+.about-banner-pera{
+  font-size: 6px;
+  height: 60px;
+}
+.start-trading-card{
+  width: 140px;
+  padding: 5px;
+  margin: 10px 0px;
+}
+.start-trading-card-img img {
+  width: 46px;
+  height: 55px;
+}
+.start-trading-card-head{
+  width: 112px;
+}
+.start-trading-card-head p{
+  font-size:20px;
+}
+.start-trading-card-pera{
+  padding: 0%;
+}
+.start-trading-card-pera p{
+  font-size: 10px;
+  padding: 0%;
+}
+.start-trading-card-pera i{
+  padding: 6px 5px 0px 5px;
+  display: flex;
+  justify-content: center;
+
+}
+.cabana-partnership-section{
+  display: flex;
+  justify-content: center;
+}
+.cabana-partnership-align{
+  display: flex;
+  flex-direction: column;
+  width: 290px;
+}
+.cabana-partnership{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cabana-partnership img{
+  height: 170px;
+  width: 280px;
+}
+.cabana-partnership-head .heading{
+  font-size: 16px;
+}
+.cabana-partnership-pera p{
+  font-size: 12px;
+}
+.cabana-partnership-btn .buttons {
+  width: 85px;
+  font-size: 6px;
+}
+.investment-left-1st-card {
+  width: 320px;
+}
+.investment-left-pic img {
+  width: 55px;
+}
+.investment-account h4{
+  font-size: 8px;
+}
+.investment-account p{
+  font-size: 6px;
+}
+
+.investment-left-side-btn .buttons{
+  width: 290px;
+}
+.investment-right-btn .buttons{
+  width: 135px;
+}
+.we-accept-banner-1{
+  height: 82px !important;
+}
+.social-icon{
+  font-size: 20px;
+}
+.about-pera-2{
+  font-size: 1px;
+}
+>>>>>>> 61f43906b16ceb94f5433f49fe6e2f55924643db
 }

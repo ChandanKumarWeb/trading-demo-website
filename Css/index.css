@@ -163,11 +163,6 @@ a {
   width: 100%;
   height: 680px;
 }
-
-.slide {
-  position: relative;
-}
-
 /* texts on a banner */
 .banner-text {
   position: absolute;
@@ -947,7 +942,16 @@ a {
     height: 310px;
     margin: 0%;
     padding: 0%;
+    position: relative;
   }
+  .slide .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 310px;
+    background-color: rgba(0, 0, 0, 0.5); /* black with 50% opacity */
+ }
   .slides {
     height: 240px;
   }

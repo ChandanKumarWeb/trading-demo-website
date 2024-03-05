@@ -117,6 +117,9 @@ a {
   color: var(--black-color);
   transition: 1s;
 }
+.navbar-nav .nav-link:active {
+  color: red; /* Color on click */
+}
 
 .navbar-nav {
   display: flex;
@@ -145,6 +148,15 @@ a {
 .slide {
   width: 20%;
   transition: 2s;
+  position: relative;
+}
+.slide .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* black with 50% opacity */
 }
 
 .slide img {
@@ -707,6 +719,14 @@ a {
 .we-accept-banner {
   position: relative;
 }
+.we-accept-banner .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* black with 50% opacity */
+}
 
 .we-accept-banner img {
   width: 100%;
@@ -726,7 +746,6 @@ a {
   transform: translate(-50%, -50%);
   width: 50%;
   max-width: 60%; /* Adjust as needed */
-  background: var(--black-color);
 }
 /* **************************************Social media icon************************** */
 .social-media{

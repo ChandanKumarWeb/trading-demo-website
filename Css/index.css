@@ -100,10 +100,6 @@ a {
 }
 
 /* ****************************SECOND NAV button**************************** */
-.navbar-toggler-icon {
-  background-color: var(--black-color);
-  color: var(--black-color);
-}
 
 .nav-link {
   color: var(--main-color);
@@ -818,8 +814,22 @@ a {
   font-size: 13px;
   color: var(--white-color);
 }
+/* ******************************************About page ************************************************** */
+.we-accept-banner-2{
+  color: var(--white-color);
+  text-align: center;
+}
 
-
+.about-page-banner{
+  margin: 50px 0px;
+  padding: 29px 110px 50px 83px;;
+  border-top-right-radius: 249px;
+  border-bottom-left-radius: 249px;
+  height: fit-content;
+  width: fit-content;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
 
 
 
@@ -1176,5 +1186,20 @@ a {
 }
 .social-media-icon {
   width: 100%;
+}
+
+
+/* ******************************************.about-page****************************** */
+.whycabana-heading h1{
+  font-size: 10px;
+}
+.whycabana-pera p{
+  font-size: 6px;
+}
+.about-page-banner{
+  padding: 29px 23px 15px 19px;
+  border-top-right-radius: 87px;
+  border-bottom-left-radius: 90px;
+  font-size: 6px;
 }
 }

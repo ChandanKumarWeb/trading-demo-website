@@ -1,0 +1,146 @@
+/* global */
+:root {
+    --main-color: #EE4298;
+    --white-color: #fff;
+    --black-color: #0D0D0D;
+    --green-color: #83E245;
+}
+.sub-head{
+    font-size: 25px;
+    color: var(--main-color);
+}
+.sub-pera{
+    font-size: 15px;
+    color: var(--black-color);
+}
+
+.trading-account-banner {
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    width: 60%;
+    max-width: 70%;
+    /* Adjust as needed */
+}
+
+.trading-account-banner-heading h1 {
+    font-size: 30px;
+    padding: 5px;
+    width: fit-content;
+    color: var(--white-color);
+    background-color: var(--main-color);
+    margin: 0px;
+
+}
+
+.trading-account-banner-pera h1 {
+    font-size: 30px;
+    padding: 5px;
+    width: fit-content;
+    background-color: var(--white-color);
+    color: var(--main-color);
+}
+
+/* *********************************trading terms********************************* */
+.trading-term-card{
+    display: flex;
+    align-items: center;
+}
+.trading-term-card .col{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+ }
+
+.t-card{
+    border-radius: 20px;
+    width: 340px;
+    height: 330px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+.t-card-pera{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    text-align: left;
+}
+.t-card:hover, .t-card:focus, .t-card:active{
+    cursor: pointer;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: 1s;
+}
+.trading-terms-img img{
+    width: 100%;
+    height: 110px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* *********************************media query 770px******************************************** */
+@media(max-width: 770px) {
+    .trading-account-banner-heading h1 {
+        font-size: 20px;
+    }
+
+    .trading-account-banner-pera h1 {
+        font-size: 20px;
+    }
+    
+    .t-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 240px;
+    height: 260px;
+    }
+    .sub-head{
+        font-size: 15px;
+    }
+    .sub-pera{
+        font-size: 8px;
+    }
+}
+
+
+
+/* **************************************media query 420px************************************** */
+@media(max-width: 420px) {
+    .trading-account-banner-heading h1 {
+        font-size: 8px;
+        padding: 2px;
+
+    }
+
+    .trading-account-banner-pera h1 {
+        font-size: 8px;
+        padding: 2px;
+    }
+    .t-card{
+        height: 200px;
+    }
+    .trading-terms-img img{
+        height: 70px;
+    }
+    .sub-head{
+        font-size: 10px;
+    }
+    .sub-pera{
+        font-size: 6px;
+    }
+}

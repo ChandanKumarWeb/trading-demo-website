@@ -123,6 +123,9 @@ a {
   justify-content: space-between;
   align-items: center;
 }
+.nav-item {
+  text-align: center;
+}
 
 /* **********************************slider image****************************** */
 .slider {
@@ -728,7 +731,7 @@ a {
 
 .we-accept-banner-1 {
   opacity: 0.9;
-  height: 300px !important;
+  height: 370px !important;
 }
 
 .we-accept-banner-2 {
@@ -1174,7 +1177,7 @@ a {
   width: 135px;
 }
 .we-accept-banner-1{
-  height: 82px !important;
+  height: 105px !important;
 }
 .social-icon{
   font-size: 20px;

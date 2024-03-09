@@ -39,14 +39,14 @@
     font-size: 20px;
     margin: 50px 0px;
 }
-.about-curriences-image{
+.about-currencies-image{
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100%;
     width: 100%;
 }
-.about-curriences-image img{
+.about-currencies-image img{
     width: 100%;
 }
 /* ****************************************What is Currency Trading section**************************** */

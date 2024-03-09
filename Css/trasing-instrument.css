@@ -1,0 +1,73 @@
+/* global */
+:root {
+    --main-color: #EE4298;
+    --white-color: #fff;
+    --black-color: #0D0D0D;
+    --green-color: #83E245;
+}
+.trade-with-fast-ex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.trade-with-fast-ex-space {
+    width: 800px;
+    margin-bottom: 50px;
+}
+
+.trade-pera{
+    text-align: center;
+}
+.trading-tricks-card-width{
+    display: flex;
+    align-content:center;
+    justify-content: center;
+}
+.trading-tricks-card{
+    width: 530px;
+    height: fit-contents;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-content:center;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.trading-tricks-card:hover, .trading-tricks-card:focus, .trading-tricks-card:active{
+    cursor: pointer;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: 1s;
+}
+.trading-tricks-img img{
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.trading-tricks-card-pera{
+    padding: 30px;
+}
+
+/* *********************************media query 770px******************************************** */
+@media(max-width: 770px) {
+    .trading-tricks-card-pera .sub-head{
+       font-size: 18px; 
+    }
+    .trading-tricks-card-pera .sub-pera{
+        font-size: 10px;
+    }
+}
+/* ************************************media query 420px**************** */
+
+@media(max-width: 420px) {
+    .trading-tricks-card-pera .sub-head{
+       font-size: 12px; 
+    }
+    .trading-tricks-card-pera .sub-pera{
+        font-size: 6px;
+    }
+    .trading-tricks-card-pera{
+        padding: 20px;
+    }
+}

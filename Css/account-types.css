@@ -1,0 +1,71 @@
+/* global */
+:root {
+    --main-color: #EE4298;
+    --white-color: #fff;
+    --black-color: #0D0D0D;
+    --green-color: #83E245;
+}
+.trading-terms{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.compare-accounts-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.compare-a-card{
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.compare-card-pera{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+.compare-card-pera .sub-pera{
+    text-align: center;
+}
+.compare-card-pera span{
+    font-weight: bold;
+}
+.compare-card-btn{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.sub-pera .btn{
+    width: 130px;
+    border-radius: 30px;
+    color: var(--main-color);
+}
+.sub-pera .btn:hover{
+    color: var(--white-color);
+}
+
+
+
+
+
+
+
+/* **************************************media query 770px************************************** */
+
+@media(max-width: 770px) { 
+
+
+}
+
+
+
+
+
+
+/* **************************************media query 420px************************************** */
+@media(max-width: 420px) {
+
+
+
+}

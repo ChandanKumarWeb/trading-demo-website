@@ -1,0 +1,114 @@
+/* global */
+:root {
+    --main-color: #EE4298;
+    --white-color: #fff;
+    --black-color: #0D0D0D;
+    --green-color: #83E245;
+}
+
+
+.currencies-banner {
+    position: relative;
+  }
+  .currencies-banner .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* black with 50% opacity */
+  }
+  .trading-account-banner{
+    position: absolute;
+    top:30%;
+    left: 10%;
+    color: var(--white-color);
+  }
+  .trading-account-banner-heading h1{
+    font-size: 50px;
+  }
+  .trading-account-banner-pera p {
+    font-size: 20px;
+  }
+
+.currencies-banner img{
+    /* height: 280px !important; */
+    width: 100%;
+}
+.about-currencies-pera{
+    font-size: 20px;
+    margin: 50px 0px;
+}
+.about-curriences-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+.about-curriences-image img{
+    width: 100%;
+}
+/* ****************************************What is Currency Trading section**************************** */
+.currency-trading-container{
+    margin: 50px 0px;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.currency-trading-pera h1{
+    text-align: center;
+}
+.currency-trading-pera{
+  padding: 50px 0px;
+}
+.curriencies-pair-container{
+    margin: 50px 0px;
+}
+.currencies-pair-head h1{
+    text-align: center;
+}
+
+
+
+
+
+/* *********************************media query 770px******************************************** */
+@media(max-width: 770px) {
+    .trading-account-banner-heading h1{
+        font-size: 30px;
+      }
+      .trading-account-banner-pera p {
+        font-size: 12px;
+      }
+
+}
+
+
+/* ************************************media query 420px**************** */
+
+@media(max-width: 420px) {
+    .trading-account-banner-heading h1{
+        font-size: 12px;
+      }
+      .trading-account-banner-pera p {
+        font-size: 8px;
+      }
+      .about-currencies-pera{
+        font-size: 10px;
+        margin: 20px 0px;
+      }
+      .about-curriencies-fonts h1{
+        font-size: 15px;
+      }
+      .about-curriencies-fonts p{
+        font-size: 8px;
+      }
+      .currency-trading-pera{
+        font-size: 50%;
+      }
+      .currencies-pair-peragraph {
+        font-size: 50%;
+      }
+}

@@ -47,6 +47,12 @@
 }
 .trading-tricks-card-pera{
     padding: 30px;
+    height: 40%;
+}
+.card-btn {
+    display: flex;
+    align-items: end;
+    justify-content: center;
 }
 
 /* *********************************media query 770px******************************************** */

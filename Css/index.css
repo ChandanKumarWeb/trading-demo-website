@@ -413,14 +413,21 @@ a {
 }
 /* ******************************************LATEST NEWS CARDS**************************************** */
 .cards{
-  display: flex;
-  justify-content: space-between;
+  display: flex ;
+  align-content: center;
+  justify-content: space-around;
+  padding: 0px 12px;
+  margin-top: 24px;
 }
 .card{
-  width: 535px;
-  height: fit-content;
-  padding-bottom: 10px;
-  border-radius: 10px;
+  width: 530px;
+  height: fit-contents;
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  align-content:center;
+  text-align: center;
+  border-radius: 20px;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 .card:hover , .card:focus, .card:active{
@@ -429,9 +436,9 @@ a {
   transform: scale(1.1);
   transition: 1s;
 }
-.card img{
-  width: 535px;
-  height: 300px;
+.card-img img{
+  width: 100%;
+  height: 100%;
   border-radius: 10px;
   position: relative;
 }
@@ -442,32 +449,36 @@ a {
 }
 .card-head p{
   background-color: var(--white-color);
-  padding: 0px 10px 0px 10px;  
+  margin: 0%; 
   left: 50%;
   position: absolute;
   top: auto;
   transform: translate(-50%, -50%);
   text-align: center;
-  width: 430px;
+  width: 90%;
   height: fit-content;
   border-radius: 30px;
   font-size: 30px;
   font-weight: 500;
   box-shadow: 0px 0px 6px 1px #CBCBCB;
 }
+.card-pera{
+  margin: 25px 25px;
+}
 .card-pera p{
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 20px 25px;
+  margin: 0%;
   height: 180px;
   text-align: center;
-  font-size: 19px;
+  font-size: 17px;
   color: var(--black-color);
 }
 .card-btn{
   display: flex;
   justify-content: space-evenly;
+  padding-bottom: 20px;
 }
 .card-btn .btn{
   display: flex;
@@ -490,7 +501,7 @@ a {
   justify-content: center;
 }
 .about-banner{
-  margin: 50px 0px;
+  margin: 50px 12px 0px 12px;
   padding: 0px 0px 20px 0px;
   border-radius: 15px;
   height: fit-content;
@@ -504,7 +515,7 @@ a {
   transition: 1s;
 }
 .about-banner img{
-  width: 1140px;
+  width: 100%;
   height: 300px;
   border-radius: 15px;
   position: relative;
@@ -878,10 +889,6 @@ a {
   .card{
     width: 250px;
   }
-  .card img{
-    width: 250px;
-    height: 150px;
-  }
   .card-head p{
     width: 210px;
     font-size: 20px;
@@ -1039,10 +1046,6 @@ a {
 }
   .card{
     width: 135px;
-  }
-  .card img{
-    width: 135px;
-    height: 100px;
   }
   .card-head p{
     width: 100px;

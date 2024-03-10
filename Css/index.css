@@ -298,7 +298,7 @@ a {
 /********************************************************** ****************************************** */
 .news-box {
   padding-bottom: 5px;
-  width: 1140px;
+  width: 100%;
   height: fit-content;
   border-radius: 30px;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
@@ -464,13 +464,14 @@ a {
 }
 .card-pera{
   margin: 25px 25px;
+  height: 60%;
 }
 .card-pera p{
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 0%;
-  height: 180px;
+  height: 100%;
   text-align: center;
   font-size: 17px;
   color: var(--black-color);
@@ -548,13 +549,14 @@ a {
 /* ****************************************************START TRADING SECTION*************************************** */
 .start-trading-cards{
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   margin: 50px 0px;
 }
 .start-trading-card{
   width: 260px;
   height: fit-content;
   padding-bottom: 10px;
+  margin: 15px 0px;
   border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
@@ -863,9 +865,9 @@ a {
     width: 215px;
   }
 /* ***********MEDIA QUERY FOR LATEST NEWS SECTION************ */
-  .news-box{
+  /* .news-box{
     width: 540px;
-  }
+  } */
   .head-selected,.news-head{
     width: 150px;
   }
@@ -886,27 +888,23 @@ a {
     width: 48px;
     height: 18px;
   }
-  .card{
+  /* .card{
     width: 250px;
-  }
+  } */
   .card-head p{
-    width: 210px;
     font-size: 20px;
   }
   .card-pera p{
     font-size: 12px;
-    height: 124px;
+    /* height: 124px; */
   }
   .card-btn .btn{
     width: 105px;
     height: 30px;
     font-size: 8px;
   }
-  .about-banner{
-    width: 400px;
-  }
   .about-banner img{
-    width: 400px;
+    width: 100%;
     height: 250px;
   }
   .about-banner-head p{
@@ -922,11 +920,14 @@ a {
     margin: 15px 0px;
   }
   .cabana-partnership-align {
-    width: 625px;
+    width: 100%;
   }
   .cabana-partnership img{
     width: 440px;
     height: 250px;
+  }
+  .start-trading-cards{
+    justify-content: space-evenly;
   }
 }
 
@@ -1012,9 +1013,6 @@ a {
     padding-top: 5px;
   }
   /* **********************latest news table************** */
-  .news-box{
-    width: 285px;
-  }
   .head-selected,.news-head{
     width: 80px;
     height: 50px;
@@ -1044,20 +1042,17 @@ a {
 .cards{
   justify-content: space-evenly;
 }
-  .card{
-    width: 135px;
-  }
   .card-head p{
     width: 100px;
     font-size: 8px;
   }
-  .card-pera{
+  /* .card-pera{
     height: 100px;
-  }
+  } */
   .card-pera p{
     font-size: 6px;
-    height: 50px;
-    margin: 12px 2px;
+    /* height: 50px; */
+    margin-top: 10px;
   }
   .card-btn .btn {
     width: 62px;
@@ -1065,7 +1060,7 @@ a {
     font-size: 4px;
   }
 .card-pera {
-  height: 70px;
+  /* height: 70px; */
   margin-top: 5px;
   }
   /* **************************************************************about banner image************************************************************ */

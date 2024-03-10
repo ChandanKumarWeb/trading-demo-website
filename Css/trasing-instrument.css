@@ -49,10 +49,12 @@
     padding: 30px;
     height: 40%;
 }
-.card-btn {
+.trading-tricks-card .card-btn {
     display: flex;
-    align-items: end;
+    align-items: center;
     justify-content: center;
+    height: 100%;
+    padding-top: 10px;
 }
 
 /* *********************************media query 770px******************************************** */

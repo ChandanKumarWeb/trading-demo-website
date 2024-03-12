@@ -1,0 +1,41 @@
+/* **********************GLOBAL************************ */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+  --main-color: #EE4298;
+  --white-color: #fff;
+  --black-color: #0D0D0D;
+  --green-color: #83E245;
+}
+/* global end */
+.precious-metal-pera{
+    padding: 4%;
+    text-align: center;
+}
+.big-font-pera{
+    font-size: clamp(8px, 2vw, 20px);
+}
+.sub-head{
+    font-size: clamp(15px, 4vw, 30px);
+    margin: 10px 0px;
+}
+.sub-pera{
+    font-size: clamp(6px, 2vw, 18px);
+}
+.about-currencies-image{
+    align-items: start;
+}
+.about-currencies-image img{
+    height: 30vh;
+}
+.key-benefits{
+    height: fit-content;
+}
+
+
+/* *********************************media query 770px******************************************** */
+@media(max-width: 770px){
+    .about-currencies-image img{
+        height: 100%;
+    }
+}

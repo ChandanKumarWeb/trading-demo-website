@@ -32,7 +32,7 @@
   }
 
 .currencies-banner img{
-    /* height: 280px !important; */
+    height: 100%;
     width: 100%;
 }
 .about-currencies-pera{
@@ -48,6 +48,7 @@
 }
 .about-currencies-image img{
     width: 100%;
+    padding: 10px;
 }
 /* ****************************************What is Currency Trading section**************************** */
 .currency-trading-container{

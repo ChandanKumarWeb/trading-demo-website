@@ -13,7 +13,9 @@
 a {
   text-decoration: none;
 }
-
+.fa-circle{
+  color: var(--main-color);
+}
 .heading {
   text-align: center;
   color: var(--black-color);

@@ -1,0 +1,33 @@
+/* global */
+:root {
+    --main-color: #EE4298;
+    --white-color: #fff;
+    --black-color: #0D0D0D;
+    --green-color: #83E245;
+}
+.trading-account-banner-heading h1{
+    color: var(--main-color);
+    background-color: var(--white-color);
+}
+.trading-account-banner-pera h1 {
+    color: var(--white-color);
+    background-color: var(--main-color);
+}
+.cabana-interest-points{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cabana-interest-points .sub-pera{
+    color: var(--main-color);
+    font-size: 20px;
+}
+.cabana-interest-btns{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+table img{
+    max-width: 100px;
+}

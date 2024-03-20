@@ -1,0 +1,35 @@
+.become-strategy-manager-first-pera{
+    text-align: center;
+}
+.become-strategy-manager-second-pera{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.become-strategy-manager-second-pera h1{
+    width: 75%;
+}
+
+.become-strategy-manager-points{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.become-strategy-manager-points .sub-pera{
+    color: var(--main-color);
+    font-size: 18px;
+}
+
+@media (max-width: 420px)
+{
+    .heading{
+        font-size: small;
+    }
+    .become-strategy-manager-points .sub-pera{
+        font-size: 12px;
+    }
+
+}

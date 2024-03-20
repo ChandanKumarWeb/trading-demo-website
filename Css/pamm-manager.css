@@ -1,0 +1,122 @@
+/* global */
+/* :root {
+    --main-color: #EE4298;
+    --white-color: #fff;
+    --black-color: #0D0D0D;
+    --green-color: #83E245;
+} */
+
+.investment-left-1st-card {
+    width: 100%;
+}
+.t-card{
+    padding: 20px;
+    box-shadow: none;
+}
+.t-card-head{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.t-card-pera{
+    text-align: center;
+}
+.sub-head{
+    color: var(--black-color);
+    font-size: 20px;
+}
+.sub-pera{
+    font-size: 16px;
+}
+
+/* 2nd banner with overlay */
+
+.second-pamm-banner{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    max-width: 70%;
+}
+.second-banner-heading{
+    text-align: center;
+    color: var(--white-color);
+}
+.big-number{
+    font-family: Roboto;
+    font-weight: 500;
+    /* line-height: 128.91px; */
+    text-align: center;
+    background: none;
+    color: var(--white-color);
+}
+
+.trading-account-banner-pera .big-number {
+    background-color: transparent;
+    font-size: 65px;
+}
+.image-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.image-text .sub-head{
+    color: var(--white-color);
+    text-align: center;
+    font-size: small;
+}
+
+.t-card-second-head{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.t-card-second-head .sub-head{
+    font-weight: bold;
+}
+
+
+/* *********************************media query 770px******************************************** */
+@media(max-width: 770px) {
+    .trading-account-banner-pera .big-number {
+        font-size: 40px;
+    }
+    .image-text .sub-head{
+        font-size: 10px;
+    }
+    .t-card{
+        width: 100%;
+        padding: 5px;
+    }
+
+
+}
+
+
+
+/* **************************************media query 420px************************************** */
+@media(max-width: 420px) {
+    .trading-account-banner-pera .big-number {
+        font-size: 20px;
+    }
+    .image-text .sub-head{
+        font-size: 4px;
+    }
+    .second-banner-heading h1{
+        font-size: 10px;
+    }
+    .t-card{
+        width: 100%;
+        padding: 5px;
+    }
+    .t-card-pera{
+        padding: 5px;
+    }
+    .sub-head {
+        font-size: 10px;
+    }
+}

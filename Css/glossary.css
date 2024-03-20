@@ -1,0 +1,25 @@
+/* global */
+:root {
+    --main-color: #EE4298;
+    --white-color: #fff;
+    --black-color: #0D0D0D;
+    --green-color: #83E245;
+}
+.t-card {
+    height: 200px;
+}
+
+.trading-term-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.t-card-pera .sub-pera{
+    color: var(--main-color);
+}
+
+@media (max-width: 420px){
+    .t-card {
+        height: 145px;
+    }
+}
